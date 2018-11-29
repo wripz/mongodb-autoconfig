@@ -23,3 +23,5 @@ service中直接注入
 private MongoTemplate mongoTemplate;
 
 即可使用
+
+项目启动时会打印日志“已连接到MongoDB，database：database name”
