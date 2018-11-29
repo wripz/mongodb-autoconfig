@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      host: ${app.mongodb.host}
+      port: ${app.mongodb.port}
+      database: ${app.mongodb.database}
+      username: ${app.mongodb.username}
+      password: ${app.mongodb.password}
+
+mongodb:
+  host: ${app.mongodb.host}
+  port: ${app.mongodb.port}
+  database: ${app.mongodb.database}
+  username: ${app.mongodb.username}
+  password: ${app.mongodb.password}
