@@ -14,6 +14,8 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "mongodb")
 public class MongoDBProperties {
 
+
+
     /**
      * 地址
      */
